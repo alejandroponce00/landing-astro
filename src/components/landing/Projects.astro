@@ -1,3 +1,20 @@
+---
+import projects from '../../config/projects.json';
 
 
-<h1>Proyects</h1>
+---
+
+
+<h1 class="text-center font-bold text-5xl mt-10">Proyectos</h1>
+<div class="flex">
+  {
+    projects.map((project) => (
+      <div class="bg-slate-800 p-10 rounded-xl m-1 ">
+        <h2>{project.title}</h2>
+        <p>
+            {project.description}
+        </p>
+      </div>
+    ))
+  }
+</div>

@@ -1,0 +1,19 @@
+[
+    {
+        "title": "javascript",
+        "description": "conocimientos basicos"
+    },
+    {
+        "title": "python",
+        "description": "conocimientos avanzados"
+    },
+    {
+        "title": "astro",
+        "description": "conocimientos basicos"
+    },
+    {
+        "title": "sql",
+        "description": "conocimientos avanzados"
+    }
+    
+]
